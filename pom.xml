@@ -25,8 +25,8 @@ the software.
     <description>The parent ORCID pom that all sub-projects reside under</description>
 
     <properties>
-        <spring.version>5.3.20</spring.version>
-        <security.version>5.6.2</security.version>
+        <spring.version>5.3.26</spring.version>
+        <security.version>5.7.12</security.version>
         <liquibase.version>4.9.1</liquibase.version>
         <jersey.version>2.27</jersey.version>
         <jackson.version>2.13.1</jackson.version>
@@ -42,7 +42,7 @@ the software.
         <junit.version>4.13.2</junit.version>
         <main.basedir>${project.basedir}</main.basedir>
         <branchVersion>1.1.5-SNAPSHOT</branchVersion>
-        <togglz.version>3.3.3</togglz.version>
+        <togglz.version>4.0.0</togglz.version>
     </properties>
 
     <modules>    
@@ -166,7 +166,7 @@ the software.
                 <artifactId>maven-resources-plugin</artifactId>
                 <configuration>
                     <escapeString>\</escapeString>
-                    <outputDirectory />
+                    <outputDirectory/>
                 </configuration>
             </plugin>
             <plugin>
@@ -331,12 +331,12 @@ the software.
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.17.1</version>
+            <version>2.25.3</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
-            <version>2.17.1</version>
+            <version>2.25.3</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -393,7 +393,7 @@ the software.
             <dependency>
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
-                <version>1.9.4</version>
+                <version>1.11.0</version>
                 <scope>compile</scope>
             </dependency>
 
